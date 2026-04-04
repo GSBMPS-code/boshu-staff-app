@@ -1,0 +1,822 @@
+{
+  "year": 2026,
+  "last_updated": "2026-03-29",
+  "universities": [
+    {
+      "id": "tokyo",
+      "name": "東京大学",
+      "name_full": "東京大学医学部医学科",
+      "type": "national",
+      "domain": "u-tokyo.ac.jp",
+      "admission_url": "https://www.u-tokyo.ac.jp/ja/admissions/index.html",
+      "exam_types": ["一般前期"],
+      "notes": "理科三類。後期なし"
+    },
+    {
+      "id": "kyoto",
+      "name": "京都大学",
+      "name_full": "京都大学医学部医学科",
+      "type": "national",
+      "domain": "kyoto-u.ac.jp",
+      "admission_url": "https://www.kyoto-u.ac.jp/ja/admissions",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "osaka",
+      "name": "大阪大学",
+      "name_full": "大阪大学医学部医学科",
+      "type": "national",
+      "domain": "osaka-u.ac.jp",
+      "admission_url": "https://www.osaka-u.ac.jp/ja/admissions",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "tokyo_kagaku",
+      "name": "東京科学大学",
+      "name_full": "東京科学大学医学部医学科",
+      "type": "national",
+      "domain": "isct.ac.jp",
+      "admission_url": "https://www.isct.ac.jp/ja/admissions",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": "旧東京医科歯科大学+東京工業大学。2024年10月統合"
+    },
+    {
+      "id": "nagoya",
+      "name": "名古屋大学",
+      "name_full": "名古屋大学医学部医学科",
+      "type": "national",
+      "domain": "nagoya-u.ac.jp",
+      "admission_url": "https://www.nagoya-u.ac.jp/admissions/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "kyushu",
+      "name": "九州大学",
+      "name_full": "九州大学医学部医学科",
+      "type": "national",
+      "domain": "kyushu-u.ac.jp",
+      "admission_url": "https://www.kyushu-u.ac.jp/ja/admission/",
+      "exam_types": ["一般前期", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "chiba",
+      "name": "千葉大学",
+      "name_full": "千葉大学医学部医学科",
+      "type": "national",
+      "domain": "chiba-u.ac.jp",
+      "admission_url": "https://www.chiba-u.ac.jp/exam/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "osaka_koritsu",
+      "name": "大阪公立大学",
+      "name_full": "大阪公立大学医学部医学科",
+      "type": "public",
+      "domain": "omu.ac.jp",
+      "admission_url": "https://www.omu.ac.jp/admissions/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "nara_kenritsu",
+      "name": "奈良県立医科大学",
+      "name_full": "奈良県立医科大学医学部医学科",
+      "type": "public",
+      "domain": "naramed-u.ac.jp",
+      "admission_url": "https://www.naramed-u.ac.jp/university/nyushijyoho/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "kobe",
+      "name": "神戸大学",
+      "name_full": "神戸大学医学部医学科",
+      "type": "national",
+      "domain": "kobe-u.ac.jp",
+      "admission_url": "https://www.kobe-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "yokohama_shiritsu",
+      "name": "横浜市立大学",
+      "name_full": "横浜市立大学医学部医学科",
+      "type": "public",
+      "domain": "yokohama-cu.ac.jp",
+      "admission_url": "https://www.yokohama-cu.ac.jp/admissions/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "tohoku",
+      "name": "東北大学",
+      "name_full": "東北大学医学部医学科",
+      "type": "national",
+      "domain": "tohoku.ac.jp",
+      "admission_url": "https://www.tohoku.ac.jp/japanese/admission/",
+      "exam_types": ["一般前期", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "hokkaido",
+      "name": "北海道大学",
+      "name_full": "北海道大学医学部医学科",
+      "type": "national",
+      "domain": "hokudai.ac.jp",
+      "admission_url": "https://www.hokudai.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "kyoto_furitsu",
+      "name": "京都府立医科大学",
+      "name_full": "京都府立医科大学医学部医学科",
+      "type": "public",
+      "domain": "kpu-m.ac.jp",
+      "admission_url": "https://www.kpu-m.ac.jp/doc/college/examination/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "okayama",
+      "name": "岡山大学",
+      "name_full": "岡山大学医学部医学科",
+      "type": "national",
+      "domain": "okayama-u.ac.jp",
+      "admission_url": "https://www.okayama-u.ac.jp/tp/admission/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "nagoya_shiritsu",
+      "name": "名古屋市立大学",
+      "name_full": "名古屋市立大学医学部医学科",
+      "type": "public",
+      "domain": "nagoya-cu.ac.jp",
+      "admission_url": "https://www.nagoya-cu.ac.jp/admissions/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "yamanashi",
+      "name": "山梨大学",
+      "name_full": "山梨大学医学部医学科",
+      "type": "national",
+      "domain": "yamanashi.ac.jp",
+      "admission_url": "https://www.yamanashi.ac.jp/admission",
+      "exam_types": ["一般後期", "学校推薦型"],
+      "notes": "前期なし・後期のみ"
+    },
+    {
+      "id": "hiroshima",
+      "name": "広島大学",
+      "name_full": "広島大学医学部医学科",
+      "type": "national",
+      "domain": "hiroshima-u.ac.jp",
+      "admission_url": "https://www.hiroshima-u.ac.jp/nyushi",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "tsukuba",
+      "name": "筑波大学",
+      "name_full": "筑波大学医学群医学類",
+      "type": "national",
+      "domain": "tsukuba.ac.jp",
+      "admission_url": "https://www.tsukuba.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": "学群・学類制"
+    },
+    {
+      "id": "niigata",
+      "name": "新潟大学",
+      "name_full": "新潟大学医学部医学科",
+      "type": "national",
+      "domain": "niigata-u.ac.jp",
+      "admission_url": "https://www.niigata-u.ac.jp/admissions/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "kanazawa",
+      "name": "金沢大学",
+      "name_full": "金沢大学医薬保健学域医学類",
+      "type": "national",
+      "domain": "kanazawa-u.ac.jp",
+      "admission_url": "https://www.kanazawa-u.ac.jp/admissions/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": "学域・学類制"
+    },
+    {
+      "id": "kumamoto",
+      "name": "熊本大学",
+      "name_full": "熊本大学医学部医学科",
+      "type": "national",
+      "domain": "kumamoto-u.ac.jp",
+      "admission_url": "https://www.kumamoto-u.ac.jp/nyuushi/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "nagasaki",
+      "name": "長崎大学",
+      "name_full": "長崎大学医学部医学科",
+      "type": "national",
+      "domain": "nagasaki-u.ac.jp",
+      "admission_url": "https://www.nagasaki-u.ac.jp/nyugaku/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "shinshu",
+      "name": "信州大学",
+      "name_full": "信州大学医学部医学科",
+      "type": "national",
+      "domain": "shinshu-u.ac.jp",
+      "admission_url": "https://www.shinshu-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "mie",
+      "name": "三重大学",
+      "name_full": "三重大学医学部医学科",
+      "type": "national",
+      "domain": "mie-u.ac.jp",
+      "admission_url": "https://www.mie-u.ac.jp/exam/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "wakayama_kenritsu",
+      "name": "和歌山県立医科大学",
+      "name_full": "和歌山県立医科大学医学部医学科",
+      "type": "public",
+      "domain": "wakayama-med.ac.jp",
+      "admission_url": "https://www.wakayama-med.ac.jp/nyuushi/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "gifu",
+      "name": "岐阜大学",
+      "name_full": "岐阜大学医学部医学科",
+      "type": "national",
+      "domain": "gifu-u.ac.jp",
+      "admission_url": "https://www.gifu-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "hamamatsu",
+      "name": "浜松医科大学",
+      "name_full": "浜松医科大学医学部医学科",
+      "type": "national",
+      "domain": "hama-med.ac.jp",
+      "admission_url": "https://www.hama-med.ac.jp/admission/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "kagoshima",
+      "name": "鹿児島大学",
+      "name_full": "鹿児島大学医学部医学科",
+      "type": "national",
+      "domain": "kagoshima-u.ac.jp",
+      "admission_url": "https://www.kagoshima-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "yamaguchi",
+      "name": "山口大学",
+      "name_full": "山口大学医学部医学科",
+      "type": "national",
+      "domain": "yamaguchi-u.ac.jp",
+      "admission_url": "https://www.yamaguchi-u.ac.jp/admissions/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "tottori",
+      "name": "鳥取大学",
+      "name_full": "鳥取大学医学部医学科",
+      "type": "national",
+      "domain": "tottori-u.ac.jp",
+      "admission_url": "https://www.tottori-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "shiga",
+      "name": "滋賀医科大学",
+      "name_full": "滋賀医科大学医学部医学科",
+      "type": "national",
+      "domain": "shiga-med.ac.jp",
+      "admission_url": "https://www.shiga-med.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "sapporo",
+      "name": "札幌医科大学",
+      "name_full": "札幌医科大学医学部医学科",
+      "type": "public",
+      "domain": "sapmed.ac.jp",
+      "admission_url": "https://web.sapmed.ac.jp/jp/examinfo/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "miyazaki",
+      "name": "宮崎大学",
+      "name_full": "宮崎大学医学部医学科",
+      "type": "national",
+      "domain": "miyazaki-u.ac.jp",
+      "admission_url": "https://www.miyazaki-u.ac.jp/nyushi/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "kochi",
+      "name": "高知大学",
+      "name_full": "高知大学医学部医学科",
+      "type": "national",
+      "domain": "kochi-u.ac.jp",
+      "admission_url": "https://www.kochi-u.ac.jp/nyusi/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "fukushima_kenritsu",
+      "name": "福島県立医科大学",
+      "name_full": "福島県立医科大学医学部医学科",
+      "type": "public",
+      "domain": "fmu.ac.jp",
+      "admission_url": "https://www.fmu.ac.jp/univ/exam/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "fukui",
+      "name": "福井大学",
+      "name_full": "福井大学医学部医学科",
+      "type": "national",
+      "domain": "u-fukui.ac.jp",
+      "admission_url": "https://www.u-fukui.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "gunma",
+      "name": "群馬大学",
+      "name_full": "群馬大学医学部医学科",
+      "type": "national",
+      "domain": "gunma-u.ac.jp",
+      "admission_url": "https://www.gunma-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "tokushima",
+      "name": "徳島大学",
+      "name_full": "徳島大学医学部医学科",
+      "type": "national",
+      "domain": "tokushima-u.ac.jp",
+      "admission_url": "https://www.tokushima-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "yamagata",
+      "name": "山形大学",
+      "name_full": "山形大学医学部医学科",
+      "type": "national",
+      "domain": "yamagata-u.ac.jp",
+      "admission_url": "https://www.yamagata-u.ac.jp/jp/entrance/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "kagawa",
+      "name": "香川大学",
+      "name_full": "香川大学医学部医学科",
+      "type": "national",
+      "domain": "kagawa-u.ac.jp",
+      "admission_url": "https://www.kagawa-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "toyama",
+      "name": "富山大学",
+      "name_full": "富山大学医学部医学科",
+      "type": "national",
+      "domain": "u-toyama.ac.jp",
+      "admission_url": "https://www.u-toyama.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "saga",
+      "name": "佐賀大学",
+      "name_full": "佐賀大学医学部医学科",
+      "type": "national",
+      "domain": "saga-u.ac.jp",
+      "admission_url": "https://www.saga-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "oita",
+      "name": "大分大学",
+      "name_full": "大分大学医学部医学科",
+      "type": "national",
+      "domain": "oita-u.ac.jp",
+      "admission_url": "https://www.oita-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "ryukyu",
+      "name": "琉球大学",
+      "name_full": "琉球大学医学部医学科",
+      "type": "national",
+      "domain": "u-ryukyu.ac.jp",
+      "admission_url": "https://www.u-ryukyu.ac.jp/admission/",
+      "exam_types": ["一般前期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "ehime",
+      "name": "愛媛大学",
+      "name_full": "愛媛大学医学部医学科",
+      "type": "national",
+      "domain": "ehime-u.ac.jp",
+      "admission_url": "https://www.ehime-u.ac.jp/entrance/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "akita",
+      "name": "秋田大学",
+      "name_full": "秋田大学医学部医学科",
+      "type": "national",
+      "domain": "akita-u.ac.jp",
+      "admission_url": "https://www.akita-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "asahikawa",
+      "name": "旭川医科大学",
+      "name_full": "旭川医科大学医学部医学科",
+      "type": "national",
+      "domain": "asahikawa-med.ac.jp",
+      "admission_url": "https://www.asahikawa-med.ac.jp/bureau/nyusi/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "shimane",
+      "name": "島根大学",
+      "name_full": "島根大学医学部医学科",
+      "type": "national",
+      "domain": "shimane-u.ac.jp",
+      "admission_url": "https://www.shimane-u.ac.jp/nyushi/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "hirosaki",
+      "name": "弘前大学",
+      "name_full": "弘前大学医学部医学科",
+      "type": "national",
+      "domain": "hirosaki-u.ac.jp",
+      "admission_url": "https://www.hirosaki-u.ac.jp/nyushi/",
+      "exam_types": ["一般前期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "keio",
+      "name": "慶應義塾大学",
+      "name_full": "慶應義塾大学医学部医学科",
+      "type": "private",
+      "domain": "keio.ac.jp",
+      "admission_url": "https://www.keio.ac.jp/ja/admissions/",
+      "exam_types": ["一般"],
+      "notes": ""
+    },
+    {
+      "id": "jikei",
+      "name": "東京慈恵会医科大学",
+      "name_full": "東京慈恵会医科大学医学部医学科",
+      "type": "private",
+      "domain": "jikei.ac.jp",
+      "admission_url": "https://www.jikei.ac.jp/admission/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "nms",
+      "name": "日本医科大学",
+      "name_full": "日本医科大学医学部医学科",
+      "type": "private",
+      "domain": "nms.ac.jp",
+      "admission_url": "https://www.nms.ac.jp/college/admission/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "juntendo",
+      "name": "順天堂大学",
+      "name_full": "順天堂大学医学部医学科",
+      "type": "private",
+      "domain": "juntendo.ac.jp",
+      "admission_url": "https://www.juntendo.ac.jp/admission/",
+      "exam_types": ["一般A", "一般B", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "kansai_med",
+      "name": "関西医科大学",
+      "name_full": "関西医科大学医学部医学科",
+      "type": "private",
+      "domain": "kmu.ac.jp",
+      "admission_url": "https://www.kmu.ac.jp/admission/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "iuhw",
+      "name": "国際医療福祉大学",
+      "name_full": "国際医療福祉大学医学部医学科",
+      "type": "private",
+      "domain": "iuhw.ac.jp",
+      "admission_url": "https://admissions.iuhw.ac.jp/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "ompu",
+      "name": "大阪医科薬科大学",
+      "name_full": "大阪医科薬科大学医学部医学科",
+      "type": "private",
+      "domain": "ompu.ac.jp",
+      "admission_url": "https://www.ompu.ac.jp/entrance/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "tokyo_med",
+      "name": "東京医科大学",
+      "name_full": "東京医科大学医学部医学科",
+      "type": "private",
+      "domain": "tokyo-med.ac.jp",
+      "admission_url": "https://www.tokyo-med.ac.jp/admission/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "showa",
+      "name": "昭和大学",
+      "name_full": "昭和大学医学部医学科",
+      "type": "private",
+      "domain": "showa-u.ac.jp",
+      "admission_url": "https://adm.showa-u.ac.jp/",
+      "exam_types": ["一般Ⅰ期", "一般Ⅱ期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "toho",
+      "name": "東邦大学",
+      "name_full": "東邦大学医学部医学科",
+      "type": "private",
+      "domain": "toho-u.ac.jp",
+      "admission_url": "https://www.toho-u.ac.jp/admissions/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "fujita",
+      "name": "藤田医科大学",
+      "name_full": "藤田医科大学医学部医学科",
+      "type": "private",
+      "domain": "fujita-hu.ac.jp",
+      "admission_url": "https://www.fujita-hu.ac.jp/admission/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "jichi",
+      "name": "自治医科大学",
+      "name_full": "自治医科大学医学部医学科",
+      "type": "private",
+      "domain": "jichi.ac.jp",
+      "admission_url": "https://www.jichi.ac.jp/exam/",
+      "exam_types": ["一般"],
+      "notes": "都道府県推薦枠が実質"
+    },
+    {
+      "id": "tohoku_med_pharm",
+      "name": "東北医科薬科大学",
+      "name_full": "東北医科薬科大学医学部医学科",
+      "type": "private",
+      "domain": "tohoku-mpu.ac.jp",
+      "admission_url": "https://www.tohoku-mpu.ac.jp/admission/",
+      "exam_types": ["一般", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "kindai",
+      "name": "近畿大学",
+      "name_full": "近畿大学医学部医学科",
+      "type": "private",
+      "domain": "kindai.ac.jp",
+      "admission_url": "https://kindai.ac.jp/exam/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "sangyoika",
+      "name": "産業医科大学",
+      "name_full": "産業医科大学医学部医学科",
+      "type": "private",
+      "domain": "uoeh-u.ac.jp",
+      "admission_url": "https://www.uoeh-u.ac.jp/examination/",
+      "exam_types": ["一般", "学校推薦型"],
+      "notes": "産業医養成"
+    },
+    {
+      "id": "hyogo_med",
+      "name": "兵庫医科大学",
+      "name_full": "兵庫医科大学医学部医学科",
+      "type": "private",
+      "domain": "corp.hyogo-college.ac.jp",
+      "admission_url": "https://www.corp.hyogo-college.ac.jp/admission/",
+      "exam_types": ["一般A", "一般B", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "kitasato",
+      "name": "北里大学",
+      "name_full": "北里大学医学部医学科",
+      "type": "private",
+      "domain": "kitasato-u.ac.jp",
+      "admission_url": "https://www.kitasato-u.ac.jp/admission/",
+      "exam_types": ["一般", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "aichi_med",
+      "name": "愛知医科大学",
+      "name_full": "愛知医科大学医学部医学科",
+      "type": "private",
+      "domain": "aichi-med-u.ac.jp",
+      "admission_url": "https://www.aichi-med-u.ac.jp/su06/su0601/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "kyorin",
+      "name": "杏林大学",
+      "name_full": "杏林大学医学部医学科",
+      "type": "private",
+      "domain": "kyorin-u.ac.jp",
+      "admission_url": "https://www.kyorin-u.ac.jp/admission/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "kurume",
+      "name": "久留米大学",
+      "name_full": "久留米大学医学部医学科",
+      "type": "private",
+      "domain": "kurume-u.ac.jp",
+      "admission_url": "https://www.kurume-u.ac.jp/site/nyuushi/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "nihon",
+      "name": "日本大学",
+      "name_full": "日本大学医学部医学科",
+      "type": "private",
+      "domain": "nihon-u.ac.jp",
+      "admission_url": "https://www.nihon-u.ac.jp/admission/",
+      "exam_types": ["一般N方式", "一般A方式", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "fukuoka",
+      "name": "福岡大学",
+      "name_full": "福岡大学医学部医学科",
+      "type": "private",
+      "domain": "fukuoka-u.ac.jp",
+      "admission_url": "https://www.fukuoka-u.ac.jp/nyushi/",
+      "exam_types": ["一般系統別", "一般共テ利用", "学校推薦型"],
+      "notes": ""
+    },
+    {
+      "id": "iwate_med",
+      "name": "岩手医科大学",
+      "name_full": "岩手医科大学医学部医学科",
+      "type": "private",
+      "domain": "iwate-med.ac.jp",
+      "admission_url": "https://www.iwate-med.ac.jp/admission/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "tokai",
+      "name": "東海大学",
+      "name_full": "東海大学医学部医学科",
+      "type": "private",
+      "domain": "u-tokai.ac.jp",
+      "admission_url": "https://www.u-tokai.ac.jp/examination/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "marianna",
+      "name": "聖マリアンナ医科大学",
+      "name_full": "聖マリアンナ医科大学医学部医学科",
+      "type": "private",
+      "domain": "marianna-u.ac.jp",
+      "admission_url": "https://www.marianna-u.ac.jp/admission/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "dokkyo_med",
+      "name": "獨協医科大学",
+      "name_full": "獨協医科大学医学部医学科",
+      "type": "private",
+      "domain": "dokkyomed.ac.jp",
+      "admission_url": "https://www.dokkyomed.ac.jp/dmu/admission/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "teikyo",
+      "name": "帝京大学",
+      "name_full": "帝京大学医学部医学科",
+      "type": "private",
+      "domain": "teikyo-u.ac.jp",
+      "admission_url": "https://www.teikyo-u.ac.jp/admissions/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "saitama_med",
+      "name": "埼玉医科大学",
+      "name_full": "埼玉医科大学医学部医学科",
+      "type": "private",
+      "domain": "saitama-med.ac.jp",
+      "admission_url": "https://www.saitama-med.ac.jp/admission/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "kanazawa_med",
+      "name": "金沢医科大学",
+      "name_full": "金沢医科大学医学部医学科",
+      "type": "private",
+      "domain": "kanazawa-med.ac.jp",
+      "admission_url": "https://www.kanazawa-med.ac.jp/entrance/",
+      "exam_types": ["一般前期", "一般後期", "学校推薦型", "総合型"],
+      "notes": ""
+    },
+    {
+      "id": "twmu",
+      "name": "東京女子医科大学",
+      "name_full": "東京女子医科大学医学部医学科",
+      "type": "private",
+      "domain": "twmu.ac.jp",
+      "admission_url": "https://www.twmu.ac.jp/univ/admission/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": "女子のみ"
+    },
+    {
+      "id": "kawasaki_med",
+      "name": "川崎医科大学",
+      "name_full": "川崎医科大学医学部医学科",
+      "type": "private",
+      "domain": "kawasaki-m.ac.jp",
+      "admission_url": "https://m.kawasaki-m.ac.jp/exam/",
+      "exam_types": ["一般", "学校推薦型", "総合型"],
+      "notes": ""
+    }
+  ],
+  "stats": {
+    "total": 81,
+    "national": 42,
+    "public": 8,
+    "private": 31
+  }
+}
