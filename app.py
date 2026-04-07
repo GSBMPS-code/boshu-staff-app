@@ -33,10 +33,19 @@ CUSTOM_CSS = """
     .stProgress > div > div { background-color: #e0e0e0 !important; }
 
     .stButton > button { border-radius: 6px; font-weight: 500; }
-    .stButton > button[kind="primary"] {
-        background-color: #5b7a9d !important; border-color: #5b7a9d !important; }
+    .stButton > button[kind="primary"],
+    .stButton > button[kind="primary"] span,
+    .stButton > button[kind="primary"] p {
+        background-color: #5b7a9d !important; border-color: #5b7a9d !important;
+        color: #fff !important; }
     .stButton > button[kind="primary"]:hover {
         background-color: #4a6785 !important; border-color: #4a6785 !important; }
+
+    /* ファイルアップローダーのボタン */
+    [data-testid="stFileUploader"] button,
+    [data-testid="stFileUploader"] button span,
+    [data-testid="stFileUploader"] button p {
+        color: #fff !important; }
 
     [data-testid="stExpander"] {
         border: 1px solid #e0e0e0 !important; border-radius: 8px !important;
