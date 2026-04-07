@@ -144,6 +144,39 @@ def main():
     # ─── ヘッダー ─────────────────────────────
     st.title("医学部 募集要項 PDF URL 登録")
 
+    # ─── 前回データの読み込み ──────────────────
+    if not st.session_state.get("data_loaded"):
+        st.markdown("""
+<div class="guide-box">
+<strong>前回の続きから作業する場合</strong><br>
+前回ダウンロードした <code>pdf_review.json</code> をアップロードしてください。<br>
+初めての場合はそのまま下へスクロールしてください。
+</div>
+        """, unsafe_allow_html=True)
+
+        resume_file = st.file_uploader(
+            "前回の登録データを読み込む（pdf_review.json）",
+            type=["json"],
+            key="resume_upload",
+        )
+        if resume_file:
+            try:
+                imported = json.loads(resume_file.read().decode("utf-8"))
+                sample_key = next(iter(imported))
+                if "name" in imported[sample_key]:
+                    st.session_state.review = imported
+                    st.session_state.data_loaded = True
+                    review = imported
+                    n = sum(1 for v in imported.values() if v["status"] == "確認済み")
+                    st.success(f"読み込み完了 -- {n}校が確認済みの状態で復元されました")
+                    st.rerun()
+                else:
+                    st.error("ファイル形式が正しくありません")
+            except Exception as e:
+                st.error(f"読み込みエラー: {e}")
+
+        st.divider()
+
     st.markdown("""
 <div class="guide-box">
 <strong>やること</strong>
@@ -153,7 +186,7 @@ def main():
 <li>サイト上で募集要項のPDFを見つけたら、PDFのリンクを右クリック →「リンクのアドレスをコピー」</li>
 <li>この画面に戻り、選抜種別（一般選抜 / 推薦 / 総合型）を選んで、URL欄に貼り付け →「追加」ボタン</li>
 <li>その大学の登録が全部終わったら、ステータスを「確認済み」に変更する</li>
-<li><strong>作業が終わったら（途中でも）、ページ上部 or 下部の「登録データをダウンロード」を押して、ファイルを船登に送ってください</strong></li>
+<li><strong>作業の区切りごとに「登録データをダウンロード」を押して、ファイルを保存してください（タブを閉じると消えます）</strong></li>
 </ol>
 </div>
     """, unsafe_allow_html=True)
